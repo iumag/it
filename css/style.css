@@ -98,7 +98,7 @@ ul li { list-style-type: none; }
 
 .about .comfort span:after { background: #4AA4CB; }
 
-.areas_of_use { margin-top: 177px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.areas_of_use { margin-top: 177px; width: 100%; background: url(../img/areas_of_use_1.png); height: 677px; background-size: cover; }
 
 .areas_of_use .areas_nav { position: relative; z-index: 2; margin-bottom: -303px; padding-top: 85px; margin-left: 72px; }
 
@@ -233,7 +233,6 @@ ul li { list-style-type: none; }
   .header .nav .nav-toggle { display: block; }
   .header .nav .col-toggle { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
   .header .nav .col-coreshock { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
-  .areas_of_use { height: inherit; }
   .areas_of_use .areas_nav { padding-top: 24px; }
   .areas_of_use .type .name { font-size: 45px; }
   .areas_of_use h1 { font-size: 31px; }
@@ -261,7 +260,7 @@ ul li { list-style-type: none; }
   .about h1 { font-size: 60px; }
   .footer { padding: 15px; }
   .footer .phone { font-size: 35px !important; }
-  .areas_of_use { display: none !important; }
+  .areas_of_use ul li { font-size: 20px !important; }
   .solutions { margin-top: 70px; }
   .solutions .block_wrap:nth-child(even):after { width: 27px; height: 27px; margin-top: -67px; margin-left: -11px; }
   .solutions .block_wrap:nth-child(odd) .block:before { width: 27px; height: 27px; margin-top: -14px; margin-left: -11px; }
